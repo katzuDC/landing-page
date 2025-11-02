@@ -1,3 +1,30 @@
-.nav{
-    background-color: red;
+body{
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #f9faf8;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+a{
+  color: #f9faf8;
+  text-decoration: none; /* no underline */
+  font-family: Roboto;
+  font-weight: 200;
 }
