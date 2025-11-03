@@ -28,3 +28,47 @@ a{
   font-family: Roboto;
   font-weight: 200;
 }
+
+.hero{
+    display: flex;
+    height:80vh;
+    background-color: #4d5e75;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 50px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-text{
+    font-family: Roboto;
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+.hero-subtext{
+    font-family: Roboto;
+    color: #f9faf8;
+}
+
+.hero-button{
+    min-width:25%;
+    min-height: 3vh;
+    align-self: flex-start;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 48px;
+    color: #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    outline: none;
+    border-style: none;
+    padding: 5px;
+}
