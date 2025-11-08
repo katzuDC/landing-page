@@ -1,37 +1,38 @@
-body{
+body {
     margin: 0px;
 }
 
-.navbar{
+.navbar {
     background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.logo{
+.logo {
     color: #f9faf8;
     font-family: Roboto;
     font-weight: 600;
 }
 
-.navlinks{
+.navlinks {
     list-style-type: none;
     display: flex;
     gap: 10px;
 
 }
 
-a{
-  color: #f9faf8;
-  text-decoration: none; /* no underline */
-  font-family: Roboto;
-  font-weight: 200;
+a {
+    color: #f9faf8;
+    text-decoration: none;
+    /* no underline */
+    font-family: Roboto;
+    font-weight: 200;
 }
 
-.hero{
+.hero {
     display: flex;
-    height:80vh;
+    height: 80vh;
     background-color: #4d5e75;
     align-items: center;
     justify-content: space-around;
@@ -40,31 +41,31 @@ a{
     gap: 50px;
 }
 
-.hero-left{
+.hero-left {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.hero-text{
+.hero-text {
     font-family: Roboto;
     font-size: 48px;
-    color:#f9faf8;
+    color: #f9faf8;
     font-weight: 900;
 }
 
-.hero-subtext{
+.hero-subtext {
     font-family: Roboto;
     color: #f9faf8;
 }
 
-.info-subtext{
+.info-subtext {
     font-family: Roboto;
     color: #585858;
 }
 
-.hero-button{
-    min-width:25%;
+.hero-button {
+    min-width: 25%;
     min-height: 3vh;
     align-self: flex-start;
     font-size: 24px;
@@ -78,27 +79,52 @@ a{
     padding: 5px;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.info-title{
+.info-title {
     font-family: Roboto;
     font-size: 48px;
-    color:#2c2c2c;
+    color: #2c2c2c;
     font-weight: 900;
 }
 
-.info-images{
+.info-images {
     display: flex;
     gap: 50px;
 }
 
-.info-image{
+.info-image {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebebeb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-paragraph {
+    max-width: 60%;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-t {
+    padding-top: 10px;
+    text-align: end;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
 }
